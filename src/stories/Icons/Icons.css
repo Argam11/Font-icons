@@ -1,19 +1,28 @@
-.storybook-icons-container {
+.storybook-icons-container > div {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  font-size: 14px;
+}
+.storybook-icons-container > input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+.storybook-icon-block {
+  margin: 10px;
 }
 .storybook-icon {
-  /* font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-weight: 700;
   border: 2px solid #656565;
   border-radius: 8px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  width: 80px;
-  height: 50px;
+  width: 180px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
 }
